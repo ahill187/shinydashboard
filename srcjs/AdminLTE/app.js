@@ -119,7 +119,10 @@ $.AdminLTE.options = {
     purple: "#8E24AA",
     maroon: "#D81B60",
     black: "#222222",
-    gray: "#d2d6de"
+    gray: "#d2d6de",
+    ink: "#062F4F",
+    posy: "#813772",
+    embers: "#B82601"
   },
   //The standard screen sizes that bootstrap uses.
   //If you change these in the variables.less file, change
