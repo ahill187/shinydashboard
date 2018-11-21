@@ -4539,7 +4539,7 @@ table.text-center th {
   background-color: #d81b60 !important;
 }
 .bg-ink {
-  background-color: #062F4F;
+  background-color: #062F4F !important;
 }
 .bg-posy {
   background-color: #813772;
