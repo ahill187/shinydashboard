@@ -4538,6 +4538,15 @@ table.text-center th {
 .bg-maroon {
   background-color: #d81b60 !important;
 }
+.bg-ink {
+  background-color: #062F4F;
+}
+.bg-posy {
+  background-color: #813772;
+}
+.bg-embers {
+  background-color: #B82601;
+}
 .bg-gray-active {
   color: #000;
   background-color: #b5bbc8 !important;
