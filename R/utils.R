@@ -77,6 +77,9 @@ validateColor <- function(color) {
 #'   \item \code{purple}
 #'   \item \code{maroon}
 #'   \item \code{black}
+#'   \item \code{posy}
+#'   \item \code{ink}
+#'   \item \code{embers}
 #' }
 #'
 #' @usage NULL
@@ -85,7 +88,7 @@ validateColor <- function(color) {
 #' @keywords internal
 validColors <- c("red", "yellow", "aqua", "blue", "light-blue", "green",
                  "navy", "teal", "olive", "lime", "orange", "fuchsia",
-                 "purple", "maroon", "black")
+                 "purple", "maroon", "black", "embers", "posy", "ink")
 
 
 # Returns TRUE if a status is valid; throws error otherwise.
