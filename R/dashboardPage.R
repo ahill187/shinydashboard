@@ -8,7 +8,8 @@
 #' @param title A title to display in the browser's title bar. If no value is
 #'   provided, it will try to extract the title from the \code{dashboardHeader}.
 #' @param skin A color theme. One of \code{"blue"}, \code{"black"},
-#'   \code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, or \code{"ink"}.
+#'   \code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, \code{"cg-blue"}
+#'   or \code{"ink"}.
 #'
 #' @seealso \code{\link{dashboardHeader}}, \code{\link{dashboardSidebar}},
 #'   \code{\link{dashboardBody}}.
@@ -30,7 +31,7 @@
 #' @export
 dashboardPage <- function(header, sidebar, body, title = NULL,
   skin = c("blue", "black", "purple", "green", "red", "yellow",
-          "ink", "embers","posy")) {
+          "ink", "embers","posy", "cg-blue", "opera-mauve")) {
 
   tagAssert(header, type = "header", class = "main-header")
   tagAssert(sidebar, type = "aside", class = "main-sidebar")

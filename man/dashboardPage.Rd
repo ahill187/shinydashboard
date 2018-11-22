@@ -5,7 +5,8 @@
 \title{Dashboard page}
 \usage{
 dashboardPage(header, sidebar, body, title = NULL, skin = c("blue",
-  "black", "purple", "green", "red", "yellow", "ink", "embers", "posy"))
+  "black", "purple", "green", "red", "yellow", "ink", "embers", "posy",
+  "cg-blue", "opera-mauve"))
 }
 \arguments{
 \item{header}{A header created by \code{dashboardHeader}.}
@@ -18,7 +19,8 @@ dashboardPage(header, sidebar, body, title = NULL, skin = c("blue",
 provided, it will try to extract the title from the \code{dashboardHeader}.}
 
 \item{skin}{A color theme. One of \code{"blue"}, \code{"black"},
-\code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, or \code{"ink"}.}
+\code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, \code{"cg-blue"}
+or \code{"ink"}.}
 }
 \description{
 This creates a dashboard page for use in a Shiny app.
