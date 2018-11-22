@@ -25,6 +25,9 @@ listed below.
   \item \code{purple}
   \item \code{maroon}
   \item \code{black}
+  \item \code{posy}
+  \item \code{ink}
+  \item \code{embers}
 }
 }
 \keyword{internal}
