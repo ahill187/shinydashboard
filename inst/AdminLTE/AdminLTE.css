@@ -4542,10 +4542,19 @@ table.text-center th {
   background-color: #062F4F !important;
 }
 .bg-posy {
-  background-color: #813772;
+  background-color: #813772 !important;
 }
 .bg-embers {
-  background-color: #B82601;
+  background-color: #B82601 !important;
+}
+.bg-cg-blue {
+  background-color: #0471A6!important;
+}
+.bg-cobalt-blue {
+  background-color: #89AAE6!important;
+}
+.bg-steel-blue {
+  background-color: #3685B5!important;
 }
 .bg-gray-active {
   color: #000;

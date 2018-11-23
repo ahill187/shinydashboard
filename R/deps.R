@@ -1,3 +1,6 @@
+# Name of the package
+thisPackage <- "shinydashboard2"
+
 # Add an html dependency, without overwriting existing ones
 appendDependencies <- function(x, value) {
   if (inherits(value, "html_dependency"))
@@ -23,13 +26,13 @@ addDeps <- function(x) {
 
   dashboardDeps <- list(
     htmlDependency("AdminLTE", "2.0.6",
-      c(file = system.file("AdminLTE", package = "shinydashboard2")),
+      c(file = system.file("AdminLTE", package = thisPackage)),
       script = adminLTE_js,
       stylesheet = adminLTE_css
     ),
-    htmlDependency("shinydashboard2",
-      as.character(utils::packageVersion("shinydashboard2")),
-      c(file = system.file(package = "shinydashboard2")),
+    htmlDependency(thisPackage,
+      as.character(utils::packageVersion(thisPackage)),
+      c(file = system.file(package = thisPackage)),
       script = shinydashboard_js,
       stylesheet = "shinydashboard.css"
     )

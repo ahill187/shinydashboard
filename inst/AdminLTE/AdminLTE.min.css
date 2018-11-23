@@ -44,6 +44,8 @@
 .bg-posy,
 .bg-cg-blue,
 .bg-embers,
+.bg-cobalt-blue,
+.bg-steel-blue,
 .callout.callout-danger,
 .callout.callout-info,
 .callout.callout-success,
@@ -90,7 +92,8 @@
 .bg-olive{background-color:#3d9970!important}
 .bg-lime{background-color:#01ff70!important}
 .bg-orange{background-color:#ff851b!important}
-.bg-fuchsia{background-color:#f012be!important}.bg-purple{background-color:#605ca8!important}
+.bg-fuchsia{background-color:#f012be!important}
+.bg-purple{background-color:#605ca8!important}
 .bg-maroon{background-color:#d81b60!important}
 .bg-ink {
   background-color: #062F4F!important;
@@ -103,6 +106,12 @@
 }
 .bg-cg-blue {
   background-color: #0471A6!important;
+}
+.bg-cobalt-blue {
+  background-color: #89AAE6!important;
+}
+.bg-steel-blue {
+  background-color: #3685B5!important;
 }
 .bg-gray-active{color:#000;background-color:#b5bbc8!important}.bg-black-active{background-color:#000!important}.bg-red-active,.modal-danger .modal-footer,
 .modal-danger .modal-header{background-color:#d33724!important}.bg-yellow-active,.modal-warning .modal-footer,.modal-warning .modal-header{background-color:#db8b0b!important}.bg-aqua-active,.modal-info .modal-footer,.modal-info .modal-header{background-color:#00a7d0!important}
