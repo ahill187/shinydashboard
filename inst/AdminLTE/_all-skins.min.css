@@ -151,7 +151,8 @@
 .skin-cg-blue .main-header .navbar .sidebar-toggle{color:#fff}
 .skin-cg-blue .main-header .navbar .sidebar-toggle:hover{color:#f6f6f6;background:rgba(0,0,0,.1)}
 .skin-cg-blue .main-header .navbar .sidebar-toggle{color:#fff}
-.skin-cg-blue .main-header .navbar .sidebar-toggle:hover{background-color:#06a8f9}@media (max-width:767px){.skin-cg-blue .main-header .navbar .dropdown-menu li.divider{background-color:rgba(255,255,255,.1)}.skin-cg-blue .main-header .navbar .dropdown-menu li a{color:#fff}
+.skin-cg-blue .main-header .navbar .sidebar-toggle:hover{background-color:#06a8f9}@media (max-width:767px){.skin-cg-blue .main-header .navbar .dropdown-menu li.divider{background-color:rgba(255,255,255,.1)}
+.skin-cg-blue .main-header .navbar .dropdown-menu li a{color:#fff}
 .skin-cg-blue .main-header .navbar .dropdown-menu li a:hover{background:#06a8f9}}
 .skin-cg-blue .main-header .logo{background-color:#06a8f9;color:#fff;border-bottom:0 solid transparent}
 .skin-cg-blue .main-header .logo:hover{background-color:#06a8f9}

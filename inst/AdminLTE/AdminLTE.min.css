@@ -42,6 +42,7 @@
 .bg-yellow-active,
 .bg-ink,
 .bg-posy,
+.bg-cg-blue,
 .bg-embers,
 .callout.callout-danger,
 .callout.callout-info,
@@ -99,6 +100,9 @@
 }
 .bg-embers {
   background-color: #B82601!important;
+}
+.bg-cg-blue {
+  background-color: #0471A6!important;
 }
 .bg-gray-active{color:#000;background-color:#b5bbc8!important}.bg-black-active{background-color:#000!important}.bg-red-active,.modal-danger .modal-footer,
 .modal-danger .modal-header{background-color:#d33724!important}.bg-yellow-active,.modal-warning .modal-footer,.modal-warning .modal-header{background-color:#db8b0b!important}.bg-aqua-active,.modal-info .modal-footer,.modal-info .modal-header{background-color:#00a7d0!important}
