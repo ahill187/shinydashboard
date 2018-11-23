@@ -8,7 +8,8 @@
 #' @param title A title to display in the browser's title bar. If no value is
 #'   provided, it will try to extract the title from the \code{dashboardHeader}.
 #' @param skin A color theme. One of \code{"blue"}, \code{"black"},
-#'   \code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, \code{"cg-blue"}
+#'   \code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, \code{"cg-blue"},
+#'   \code{"posy"},
 #'   or \code{"ink"}.
 #'
 #' @seealso \code{\link{dashboardHeader}}, \code{\link{dashboardSidebar}},

@@ -117,13 +117,16 @@
 .skin-posy .main-header .navbar .sidebar-toggle{color:#fff}
 .skin-posy .main-header .navbar .sidebar-toggle:hover{color:#f6f6f6;background:rgba(0,0,0,.1)}
 .skin-posy .main-header .navbar .sidebar-toggle{color:#fff}
-.skin-posy .main-header .navbar .sidebar-toggle:hover{background-color:#682c5c}@media (max-width:767px){.skin-posy .main-header .navbar .dropdown-menu li.divider{background-color:rgba(255,255,255,.1)}.skin-posy .main-header .navbar .dropdown-menu li a{color:#fff}
+.skin-posy .main-header .navbar .sidebar-toggle:hover{background-color:#682c5c}@media (max-width:767px){.skin-posy .main-header .navbar .dropdown-menu li.divider{background-color:rgba(255,255,255,.1)}
+.skin-posy .main-header .navbar .dropdown-menu li a{color:#fff}
 .skin-posy .main-header .navbar .dropdown-menu li a:hover{background:#682c5c}}
 .skin-posy .main-header .logo{background-color:#682c5c;color:#fff;border-bottom:0 solid transparent}
 .skin-posy .main-header .logo:hover{background-color:#682c5c}
 .skin-posy .main-header li.user-header{background-color:#062F4F}
 .skin-posy .content-header{background:0 0}
-.skin-posy .left-side,.skin-posy .main-sidebar,.skin-posy .wrapper{background-color:#222d32}
+.skin-posy .left-side,
+.skin-posy .main-sidebar,
+.skin-posy .wrapper{background-color:#222d32}
 .skin-posy .user-panel>.info,.skin-posy .user-panel>.info>a{color:#fff}
 .skin-posy .sidebar-menu>li.header{color:#4b646f;background:#1a2226}
 .skin-posy .sidebar-menu>li>a{border-left:3px solid transparent}
@@ -159,7 +162,8 @@
 .skin-cg-blue .main-header li.user-header{background-color:#0471A6}
 .skin-cg-blue .content-header{background:0 0}
 .skin-cg-blue .left-side,.skin-cg-blue .main-sidebar,.skin-cg-blue .wrapper{background-color:#222d32}
-.skin-cg-blue .user-panel>.info,.skin-cg-blue .user-panel>.info>a{color:#fff}
+.skin-cg-blue .user-panel>.info,
+.skin-cg-blue .user-panel>.info>a{color:#fff}
 .skin-cg-blue .sidebar-menu>li.header{color:#4b646f;background:#1a2226}
 .skin-cg-blue .sidebar-menu>li>a{border-left:3px solid transparent}
 .skin-cg-blue .sidebar-menu>li.active>a,.skin-cg-blue .sidebar-menu>li:hover>a{color:#fff;background:#1e282c;border-left-color:#0471A6}.skin-cg-blue .sidebar-menu>li>.treeview-menu{margin:0 1px;background:#2c3b41}
