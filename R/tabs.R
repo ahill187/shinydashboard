@@ -12,6 +12,12 @@ tabItems <- function(...) {
   div(class = "tab-content", ...)
 }
 
+tabItemsList <- fucntion(listOfTabs){
+  lapply(...,tagAssert, class = "tab-pane")
+  
+  do.call(div, args = c(class = "tab-content", listOfTabs))
+  }
+
 #' One tab to put inside a tab items container
 #'
 #' @param tabName The name of a tab. This must correspond to the \code{tabName}
