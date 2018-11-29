@@ -12,7 +12,7 @@ tabItems <- function(...) {
   div(class = "tab-content", ...)
 }
 
-tabItemsList <- fucntion(listOfTabs){
+tabItemsList <- function(listOfTabs){
   lapply(...,tagAssert, class = "tab-pane")
   
   do.call(div, args = c(class = "tab-content", listOfTabs))
