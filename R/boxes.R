@@ -248,7 +248,7 @@ infoBox <- function(title, value = NULL, subtitle = NULL,
 #' )
 #' }
 #' @export
-box <- function(..., title = NULL, footer = NULL, status = NULL,
+box <- function(..., title = NULL, footer = NULL, color = NULL,
                 solidHeader = FALSE, background = NULL, width = 6,
                 height = NULL, collapsible = FALSE, collapsed = FALSE) {
 
@@ -256,9 +256,9 @@ box <- function(..., title = NULL, footer = NULL, status = NULL,
   if (solidHeader || !is.null(background)) {
     boxClass <- paste(boxClass, "box-solid")
   }
-  if (!is.null(status)) {
-    validateStatus(status)
-    boxClass <- paste0(boxClass, " box-", status)
+  if (!is.null(color)) {
+    validateStatus(color)
+    boxClass <- paste0(boxClass, " box-", color)
   }
   if (collapsible && collapsed) {
     boxClass <- paste(boxClass, "collapsed-box")
