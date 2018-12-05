@@ -9,7 +9,7 @@
 #'   provided, it will try to extract the title from the \code{dashboardHeader}.
 #' @param skin A color theme. One of \code{"blue"}, \code{"black"},
 #'   \code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, \code{"cg-blue"},
-#'   \code{"posy"},
+#'   \code{"posy"}, \code{"orange"},
 #'   or \code{"ink"}.
 #'
 #' @seealso \code{\link{dashboardHeader}}, \code{\link{dashboardSidebar}},
@@ -32,7 +32,7 @@
 #' @export
 dashboardPage <- function(header, sidebar, body, title = NULL,
   skin = c("blue", "black", "purple", "green", "red", "yellow",
-          "ink", "embers","posy", "cg-blue", "opera-mauve")) {
+          "ink", "embers","posy", "cg-blue", "opera-mauve", "orange")) {
 
   tagAssert(header, type = "header", class = "main-header")
   tagAssert(sidebar, type = "aside", class = "main-sidebar")
