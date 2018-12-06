@@ -94,7 +94,8 @@ validateColor <- function(color) {
 validColors <- c("red", "yellow", "aqua", "blue", "light-blue", "green",
                  "navy", "teal", "olive", "lime", "orange", "fuchsia",
                  "purple", "maroon", "black", "embers", "posy", "ink",
-                 "cg-blue", "steel-blue", "cobalt-blue", "salmon", "sandy-yellow")
+                 "cg-blue", "steel-blue", "cobalt-blue", "salmon", "sandy-yellow",
+                 "blue-scheme-a")
 
 
 # Returns TRUE if a status is valid; throws error otherwise.
