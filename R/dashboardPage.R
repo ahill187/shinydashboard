@@ -32,7 +32,8 @@
 #' @export
 dashboardPage <- function(header, sidebar, body, title = NULL,
   skin = c("blue", "black", "purple", "green", "red", "yellow",
-          "ink", "embers","posy", "cg-blue", "opera-mauve", "orange")) {
+          "ink", "embers","posy", "cg-blue", "opera-mauve", "orange",
+          "salmon")) {
 
   tagAssert(header, type = "header", class = "main-header")
   tagAssert(sidebar, type = "aside", class = "main-sidebar")
