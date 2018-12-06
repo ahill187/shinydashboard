@@ -234,7 +234,8 @@
  */
 
 .skin-orange, .skin-orange-light {
-  --main-bg-color: #ff8533;
+  /*--main-bg-color: #ff8533;*/
+  --main-bg-color:#000000;
   --second-bg-color: #ffa366;
   --third-bg-color: #ff6600;
 }
