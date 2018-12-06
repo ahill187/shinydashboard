@@ -42,6 +42,8 @@
 .bg-yellow-active,
 .bg-ink,
 .bg-posy,
+.bg-salmon,
+.bg-sandy-yellow,
 .bg-cg-blue,
 .bg-embers,
 .bg-cobalt-blue,
@@ -100,6 +102,12 @@
 }
 .bg-posy {
   background-color: #813772!important;
+}
+.bg-sandy-yellow {
+  background-color: #F8E9A1!important;
+}
+.bg-salmon {
+  background-color: #F76C6C!important;
 }
 .bg-embers {
   background-color: #B82601!important;
