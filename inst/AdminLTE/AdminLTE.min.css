@@ -44,6 +44,7 @@
 .bg-posy,
 .bg-salmon,
 .bg-blue-scheme-a,
+.bg-blue-2-scheme-a,
 .bg-sandy-yellow,
 .bg-cg-blue,
 .bg-embers,
@@ -109,6 +110,9 @@
 }
 .bg-blue-scheme-a {
   background-color: #A8D0E6!important;
+}
+.bg-blue-2-scheme-a {
+  background-color: #374785!important;
 }
 .bg-salmon {
   background-color: #F76C6C!important;
