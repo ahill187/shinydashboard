@@ -8,7 +8,10 @@
 #' @seealso \code{\link{tabItems}}, \code{\link{box}}, \code{\link{valueBox}}.
 #'
 #' @export
-dashboardBody <- function(...) {
+dashboardBody <- function(..., asList = F) {
+  if (asList){
+    args = (...)
+  }
   div(class = "content-wrapper",
     tags$section(class = "content",
       ...

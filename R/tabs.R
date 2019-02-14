@@ -6,6 +6,7 @@
 #' @seealso \code{\link{menuItem}}, \code{\link{menuSubItem}},
 #'   \code{\link{tabItem}}. See \code{\link{sidebarMenu}} for a usage example.
 #' @export
+
 tabItems <- function(asList = FALSE, ...) {
   args = list(...)
   if(asList){
