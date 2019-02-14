@@ -19,7 +19,8 @@ dashboardPage(header, sidebar, body, title = NULL, skin = c("blue",
 provided, it will try to extract the title from the \code{dashboardHeader}.}
 
 \item{skin}{A color theme. One of \code{"blue"}, \code{"black"},
-\code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, \code{"cg-blue"}
+\code{"purple"}, \code{"green"}, \code{"red"}, \code{"yellow"}, \code{"cg-blue"},
+\code{"posy"},
 or \code{"ink"}.}
 }
 \description{

@@ -6,17 +6,24 @@
 #' @seealso \code{\link{menuItem}}, \code{\link{menuSubItem}},
 #'   \code{\link{tabItem}}. See \code{\link{sidebarMenu}} for a usage example.
 #' @export
-tabItems <- function(...) {
+tabItems <- function(asList = FALSE, ...) {
+  args = list(...)
+  if(asList){
+    if (length(args)>1)
+      stop("Argument must be a single list")
+    if (!is.list(...))
+      stop("Argument must be a list")
+    lapply(...,tagAssert, class = "tab-pane")
+
+    do.call(div, args = c(class = "tab-content", ...))
+  } else {
+
   lapply(list(...), tagAssert, class = "tab-pane")
 
   div(class = "tab-content", ...)
+  }
 }
 
-tabItemsList <- function(listOfTabs){
-  lapply(...,tagAssert, class = "tab-pane")
-  
-  do.call(div, args = c(class = "tab-content", listOfTabs))
-  }
 
 #' One tab to put inside a tab items container
 #'

@@ -4,7 +4,7 @@
 \alias{tabItems}
 \title{A container for tab items}
 \usage{
-tabItems(...)
+tabItems(asList = FALSE, ...)
 }
 \arguments{
 \item{...}{Items to put in the container. Each item should be a

@@ -28,6 +28,9 @@ listed below.
   \item \code{posy}
   \item \code{ink}
   \item \code{embers}
+  \item \code{cg-blue}
+  \item \code{steel-blue}
+  \item \code{cobalt-blue}
 }
 }
 \keyword{internal}
